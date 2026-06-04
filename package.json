@@ -1,0 +1,29 @@
+{
+  "name": "cool-codex",
+  "version": "0.1.0",
+  "description": "Cool down macOS by safely inspecting and cleaning Codex automation Chrome processes.",
+  "bin": {
+    "cool-codex": "./cool-codex.sh",
+    "coolcodex": "./cool-codex.sh",
+    "chrome-process-guard": "./cool-codex.sh"
+  },
+  "files": [
+    "cool-codex.sh",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "bash -n cool-codex.sh"
+  },
+  "keywords": [
+    "codex",
+    "cooldown",
+    "chrome",
+    "agent-browser",
+    "macos",
+    "process"
+  ],
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=16"
+  }
+}
